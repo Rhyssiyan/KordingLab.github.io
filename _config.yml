@@ -3,9 +3,9 @@
 # # # # # # # #
 
 # Basic
-name:               "Kording lab"
-title:              "as called as Bayesian Behavior Lab"
-description:        "this is a page for Konrad Kording lab, we are comptational neurosciece and datascience lab based in Rehabilitation Institute of Chicago and Northwestern University, Chicago"
+name:               "Shipeng Yan"
+title:              "Shipeng Yan"
+description:        "Shipeng Yan"
 
 
 # URL
@@ -22,18 +22,22 @@ highlighter:        rouge
 
 # Navigation
 nav:
-  - name:           "home"
+  - name:           "Home"
     href:           "/"
-  - name:           "about"
-    href:           "/about"
-  - name:           "publications"
+  # - name:           "about"
+    # href:           "/about"
+  - name:           "Publications"
     href:           "/publication"
-  - name:           "people"
-    href:           "/people"
-  - name:           "blog"
-    href:           "/blog"
-  - name:           "resources"
-    href:           "/resources"
+  - name:           "Git"
+    href:           "https://github.com/Rhyssiyan"
+  - name:           "Google Scholar"
+    href:           "https://scholar.google.com/citations?user=oYILsyoAAAAJ&hl=en"
+  # - name:           "people"
+    # href:           "/people"
+  # - name:           "blog"
+    # href:           "/blog"
+  # - name:           "resources"
+    # href:           "/resources"
 
 # Sass
 sass:
@@ -63,5 +67,5 @@ defaults:
 
 collections:
   people:
-    output: true
+    output: False
     permalink: /people/:title/index.html

@@ -15,7 +15,8 @@ body {
 }
 
 html {
-  font-family: "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // font-family: "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
@@ -26,6 +27,7 @@ html {
 }
 
 body {
+  font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
   color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
@@ -73,10 +75,10 @@ h4, h5, h6 {
 }
 
 p {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica;
-  font-weight: 300;
+  font-family: Georgia;
+  font-weight: 200;
   margin: 0 0 1rem;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
 ul, ol, dl {
@@ -260,24 +262,19 @@ img {
 }
 
 table {
+  font-family:'Lato', Verdana, Helvetica, sans-serif;
   margin-bottom: 1rem;
   width: 100%;
   font-size: 70%;
-  border: 1px solid #e5e5e5;
   border-collapse: collapse;
 }
 
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
   font-size: 140%;
 }
 
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
-}
 
 .lead {
   font-size: 1.25rem;
